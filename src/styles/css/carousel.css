@@ -1,0 +1,36 @@
+.carousel-wrapper
+{
+    position:relative;
+}
+.image-wrapper
+{
+    position: relative;
+}
+.arrow-wrapper
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100px;
+    display: block;
+    width: 439px;
+}
+.left-arrow{
+    color: red;
+    display: inline;
+    position: relative;
+    left: 0;
+    font-size: 68px;
+    cursor: pointer
+}
+.right-arrow
+{
+    color: red;
+    display: inline;
+    position: relative;
+    right: 0;
+    float: right;
+    font-size: 68px;
+    cursor: pointer
+}

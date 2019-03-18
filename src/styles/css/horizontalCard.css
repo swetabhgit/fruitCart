@@ -1,0 +1,45 @@
+.horizontalCard{
+    width: 80%;
+    position: relative;
+    right: 0;
+    margin: auto;
+    left: 0;
+    padding-top: 20p;
+    margin-top: 40px;
+    height:200px
+}
+.card-text{
+    width: 50%;
+    position: absolute;
+    right:0
+}
+.card-media{
+    width: 50%;
+    background-image: url(/static/17b1c3e…/c0bbf/logo.png);
+    height: 200px;
+    float: right;
+    position: absolute;
+    left: 0;
+}
+.card-button{
+    background-color: #EEB3A3!important;
+    color: white!important;
+    font-family: libre_franklin
+}
+.card-button:hover{
+    background-color:#F3553C!important
+}
+.card-button-wrapper{
+    position: absolute;
+    bottom: 0;
+    font-family: libre_franklin;
+    right: 0;
+}
+.card-action-area{
+    height:inherit
+}
+.card-content{
+    position:absolute;
+    top:0;
+    width:100%
+}

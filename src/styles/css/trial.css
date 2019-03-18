@@ -1,0 +1,53 @@
+  .example1-enter {
+    width: 0px;
+   }
+  
+  .example1-enter.example1-enter-active {
+    width:60px;
+    transition: width 500ms ease-in;
+  }
+  
+  .example1-leave {
+    width:60px;
+  }
+  
+  .example1-leave.example1-leave-active {
+    width: 0px;
+    transition: width 300ms ease-in;
+  }
+
+  .example2-enter {
+    opacity: 0.01;
+  }
+  
+  .example2-enter.example2-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .example2-leave {
+    opacity: 1;
+  }
+  
+  .example2-leave.example2-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
+
+  .example3-enter {
+    opacity: 0.01;
+  }
+  
+  .example3-enter.example3-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .example3-leave {
+    opacity: 1;
+  }
+  
+  .example3-leave.example3-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
